@@ -1,0 +1,63 @@
+.App__Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+}
+
+.App__Logo {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  font-size: 3rem;
+}
+
+.TimePicker__Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.Tasks__Wrapper {
+  margin-top: 2rem;
+}
+
+button {
+  background-color: transparent;
+  color: inherit;
+  border: solid 1px rgb(235, 231, 231);
+  border-radius: 0.3em;
+  display: flex;
+  align-self: center;
+  font-size: .8rem;
+  font-weight: 300;
+  line-height: 1;
+  margin: 20px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-align: center;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  &:hover {
+    box-shadow: 0 0 40px 40px rgb(235, 231, 231) inset;
+    color: black;
+  }
+}
+
+.AddTaskButton__Wrapper button {
+  padding: 1.2em 2.8em;
+  border-radius: 0.6em;
+  font-size: 1.2rem;
+}
+
+.inline-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.TaskItem__Wrapper {
+  min-width: 400px;
+  width: 100%;
+  justify-content: space-between;
+}
